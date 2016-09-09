@@ -4,7 +4,7 @@
 1. Download [Android sdk](https://developer.android.com/studio/index.html) (should be at the bottom of the page)
 1. Extract the sdk package. Lets assume that the sdk root directory is `$HOME/bin/android-sdk`
 1. Add following to your `~/.bashrc` or preferably to `~/.profile` file:
-```
+```bash
 export ANDROID_HOME="${HOME}/bin/android-sdk"
 export PATH="${ANDROID_HOME}/tools:${PATH}"
 export PATH="${ANDROID_HOME}/platform-tools:${PATH}"
@@ -14,7 +14,7 @@ export PATH="${ANDROID_HOME}/platform-tools:${PATH}"
 1. Download [Android Studio](https://developer.android.com/studio/index.html)
 1. Extract it. Lets assume that the AS directory is `$HOME/bin/android-studio`
 1. Add AS's bin directory to the path by adding the following in your `~/.bashrc` or preferably to `~/.profile` file:
-```
+```bash
 export PATH="${HOME}/bin/android-studio/bin:${PATH}"
 ```
 1. Use command `studio.sh` to launch AS.
@@ -25,7 +25,7 @@ export PATH="${HOME}/bin/android-studio/bin:${PATH}"
 1. Download [JDK8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 1. Assuming you download for linux 64 bit and file is `~/Downloads/jdk-8u101-linux-x64.tar.gz`
 1. Run following commands in terminal:
-```
+```bash
 sudo cp ~/Downloads/jdk-8u101-linux-x64.tar.gz /usr/lib/jvm
 cd /usr/lib/jvm
 sudo tar -xzvf jdk-8u101-linux-x64.tar.gz
@@ -33,7 +33,7 @@ sudo rm -f jdk-8u101-linux-x64.tar.gz
 ```
 1. Now you should have Java 8 extracted in `/usr/lib/jvm/jdk1.8.0_101` (Folder name `jdk1.8.0_101` might differ for you)
 1. Add following to your `~/.bashrc` or preferably to `~/.profile` file:
-```
+```bash
 export JAVA_HOME="/usr/lib/jvm/jdk1.8.0_101"
 export JDK_HOME="$JAVA_HOME"
 export STUDIO_JDK="$JAVA_HOME"
@@ -268,7 +268,7 @@ If you do not already have a key store and a key, create one:
   * Key password: `keyPassword`
 
 Add following to your `~/.bashrc` or preferably to `~/.profile` file:
-```
+```bash
 export STORE_FILE="${HOME}/Documents/android_keys/KeyStore.jks"
 export STORE_PASSWORD="storePassword"
 export KEY_ALIAS="keyAlias"
@@ -276,7 +276,7 @@ export KEY_PASSWORD="keyPassword"
 ```
 
 Then make following changes in the app module's `build.gradle` file;
-```
+```groovy
 android {
     signingConfigs {
         release {
