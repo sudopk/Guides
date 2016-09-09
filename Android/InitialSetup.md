@@ -2,7 +2,7 @@
 
 # Setup Android SDK
 1. Download [Android sdk](https://developer.android.com/studio/index.html) (should be at the bottom of the page)
-1. Extract the sdk package. We will assume the sdk root directory is `$HOME/bin/android-sdk`
+1. Extract the sdk package. I will assume the sdk root directory is `$HOME/bin/android-sdk`
 1. Add following to your `~/.bashrc` or preferably to `~/.profile` file:
 ```
 export ANDROID_HOME="${HOME}/bin/android-sdk"
