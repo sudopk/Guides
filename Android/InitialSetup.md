@@ -297,11 +297,11 @@ Then make following changes in the app module's `build.gradle` file;
           }
       }
   
-      // compileSdkVersion should be minimum 24
+      // For Java 8, compileSdkVersion should be minimum 24
       compileSdkVersion 24
       buildToolsVersion "24.0.1"
       defaultConfig {
-          // compileSdkVersion should be minimum 24
+          // For Java 8, compileSdkVersion should be minimum 24
           targetSdkVersion 24
           
           ...
