@@ -257,6 +257,7 @@ These settings specify 2 GB (`2048m`) to Gradle JVM, if you want to reduce or in
 
 # Key Store
 If you do not already have a key store and a key, create one:
+
 1. Open AS
 1. Create or import a project
 1. Go to `Build->Generate Signed Apk...->Create New...`
