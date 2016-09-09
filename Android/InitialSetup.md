@@ -2,7 +2,7 @@
 
 # Setup Android SDK
 1. Download [Android sdk](https://developer.android.com/studio/index.html) (should be at the bottom of the page)
-1. Extract the sdk package. I will assume the sdk root directory is `$HOME/bin/android-sdk`
+1. Extract the sdk package. Lets assume that the sdk root directory is `$HOME/bin/android-sdk`
 1. Add following to your `~/.bashrc` or preferably to `~/.profile` file:
 ```
 export ANDROID_HOME="${HOME}/bin/android-sdk"
@@ -12,10 +12,10 @@ export PATH="${ANDROID_HOME}/platform-tools:${PATH}"
 
 # Setup Android Studio (AS)
 1. Download [Android Studio](https://developer.android.com/studio/index.html)
-1. Extract it. We will assume the AS directory is `$HOME/bin/android-studio`
+1. Extract it. Lets assume that the AS directory is `$HOME/bin/android-studio`
 1. Add AS's bin directory to the path by adding the following in your `~/.bashrc` or preferably to `~/.profile` file:
 ```
-export  PATH="${HOME}/bin/android-studio/bin:${PATH}"
+export PATH="${HOME}/bin/android-studio/bin:${PATH}"
 ```
 1. Use command `studio.sh` to launch AS.
   
