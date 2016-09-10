@@ -18,3 +18,26 @@ Add the following to your `~/.gitconfig` file on Linux:
   alias.a=add
   alias.ch=cherry-pick
   ```
+or
+
+  ```git
+  [user]
+  name=Parveen Kumar
+  email=email@email.com
+  [alias]
+  lo=log --oneline
+  co=checkout
+  s=status
+  c=commit
+  d=diff
+  ca=commit --amend
+  b=branch
+  l=log
+  r=reset --hard HEAD
+  lp=log -p
+  dc=diff --cached
+  a=add
+  ch=cherry-pick
+  ```
+
+ 
