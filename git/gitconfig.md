@@ -1,0 +1,15 @@
+user.name=Parveen Kumar
+user.email=email@email.com
+alias.lo=log --oneline
+alias.co=checkout
+alias.s=status
+alias.c=commit
+alias.d=diff
+alias.ca=commit --amend
+alias.b=branch
+alias.l=log
+alias.r=reset --hard HEAD
+alias.lp=log -p
+alias.dc=diff --cached
+alias.a=add
+alias.ch=cherry-pick
