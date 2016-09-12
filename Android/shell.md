@@ -3,6 +3,7 @@
 
 # Partitions
 `cat /proc/mounts`
+
 `cat /proc/partitions`
 
 # Android properties
