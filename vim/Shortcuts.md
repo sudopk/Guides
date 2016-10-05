@@ -55,7 +55,7 @@
 > You can also do d\* under a word to delete till next occurance
   
 # Replace/Substitute
-* :\<range\>s/\<search pattern\>/\<replace pattern\>/\<what to replace/>
+* :\<range\>s/\<search pattern\>/\<replace pattern\>/\<what to replace\>
 * \<range\>
   * % is entire page
 * s means substitute
