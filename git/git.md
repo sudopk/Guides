@@ -15,4 +15,6 @@
 
 You can use tab to autocomplete the remote if you do not know what it is. Or you can use:
 
-  `git remote -v`
+  ```bash
+  git remote -v
+  ```
