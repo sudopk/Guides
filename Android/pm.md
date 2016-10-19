@@ -1,5 +1,5 @@
 # List packages
-`pm list`
+`pm list packages`
 
 # Find apk of a package
 `pm path <package>`
