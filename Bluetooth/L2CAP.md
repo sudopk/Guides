@@ -1,5 +1,5 @@
 * The Logical Link Control and Adaption protocol.
-* Packet-base and can be configured with varying levels of reliability (latter part is not technically true).
+* Packet-base and can be configured with varying levels of reliability (latter part is not technically true, because it is configured for ACL which in turn affects L2CAP).
 * Default max packet size is 672 bytes, but can be negotiated up to 65535 bytes after a connection is established.
 * Can be compared with UDP, which is best effort packet-based. But use cases for L2CAP are much broader. L2CAP enforces delivery order (not the case in UDP).
 * Reliability by the a transmit/acknowlegment scheme. There are 3 possible retransmit policies.
