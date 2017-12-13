@@ -12,7 +12,7 @@ function clean_up() {
 function handle_error() {
   local ret="$?"
   if [ "$ret" -ne 0 ]; then
-    echo "Fatal error: script $0 aborting at line $LINENO, command \"$BASH_COMMAND\" returned $ret"
+    echo "Fatal: \"$0\" aborting at line $LINENO, command \"$BASH_COMMAND\" returned $ret"
   fi
   
   clean_up
