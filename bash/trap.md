@@ -12,7 +12,7 @@ function clean_up() {
   :
 }
 
-function handle_error() {
+function trap_handle() {
   local ret="$?"
   if [ "$ret" -ne 0 ]; then
     echo "Fatal: \"$0\" aborting at line $LINENO, command \"$BASH_COMMAND\" returned $ret"
@@ -23,7 +23,7 @@ function handle_error() {
   exit "$ret"
 }
 
-trap handle_error INT TERM EXIT
+trap trap_handle INT TERM EXIT
 
 readonly script_dir="$(readlink -f "$(dirname "$0")")"
 readonly script_name="$(basename "$0")"
