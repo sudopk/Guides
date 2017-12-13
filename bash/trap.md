@@ -6,7 +6,7 @@ set -u  # Treat unset variables as an error when substituting
 set -x  # Print commands and their arguments as they are executed
 
 function clean_up() {
-
+  :
 }
 
 function handle_error() {
