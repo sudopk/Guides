@@ -21,4 +21,7 @@ function handle_error() {
 }
 
 trap handle_error INT TERM EXIT
+
+readonly script_dir="$(readlink -f "$(dirname "$0")")"
+readonly script_name="$(basename "$0")"
 ```
