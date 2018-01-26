@@ -11,5 +11,6 @@
     * `gpg --delete-key "User Name"`
     * `gpg --list-keys`
     * `gpg --list-secret-keys`
+1. To see info about the `.gpg` file: `gpg --list-packets file.gpg`
 
 
